@@ -7,3 +7,4 @@
 * [Scope](./scope.md)
 * [Logic](./logic.md)
 * [Control Statements](./control.md)
+* [Functions](./functions.md)

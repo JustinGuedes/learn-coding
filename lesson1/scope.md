@@ -29,3 +29,79 @@ let pi = 3.14
 
 print(pi) // Prints: 3.14
 ```
+
+## Example
+
+### Problem
+
+Identify the problem in the snippet below:
+
+#### Typescript
+
+```typescript
+let counter = 0
+
+const average = (numbers) => {
+    for (let index = 0; index < numbers.length; index++) {
+        counter += numbers[index]
+    }
+
+    return counter / numbers.length
+}
+
+console.log(average([1, 2, 3])) // 2
+console.log(average([1, 2, 3])) // 4
+```
+
+#### Swift
+
+```swift
+var counter = 0
+
+func average(numbers: [Int]) -> Int {
+    for let number in numbers  {
+        counter += number
+    }
+
+    return counter / numbers.length
+}
+
+print(average([1, 2, 3])) // 2
+print(average([1, 2, 3])) // 4
+```
+
+### Solution
+
+#### Typescript
+
+```typescript
+const average = (numbers) => {
+    let counter = 0
+
+    for (let index = 0; index < numbers.length; index++) {
+        counter += numbers[index]
+    }
+
+    return counter / numbers.length
+}
+
+console.log(average([1, 2, 3])) // 2
+console.log(average([1, 2, 3])) // 2
+```
+
+#### Swift
+
+```swift
+func average(numbers: [Int]) -> Int {
+    var counter = 0
+
+    for let number in numbers  {
+        counter += number
+    }
+
+    return counter / numbers.length
+}
+
+print(average([1, 2, 3])) // 2
+print(average([1, 2, 3])) // 2
+```

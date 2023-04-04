@@ -2,11 +2,11 @@
 
 Container or placeholder of a type/value.
 
-## Constant vs 'Variable`
+## Immutable (Constant) vs Mutable ('Variable`)
 
-### Constant
+### Immutable (Constant)
 
-Constants are variables that do not change over its lifespan. Always default to a constant until you are required to change the value, then change it to a 'variable' variable.
+Constants are variables that do not change over its lifespan. Always default to a immutable (constant) until you are required to change the value, then change it to a mutable ('variable') variable.
 
 #### Swift
 
@@ -22,7 +22,7 @@ let pi = 3.14
 const pi = 3.14
 ```
 
-### 'Variable'
+### Mutable('Variable')
 
 'Variable' variable can change over its lifespan.
 
@@ -44,9 +44,10 @@ counter = counter + 1
 
 ## Naming
 
-Unique and descriptive to be able to identifier the purpose of the variable easily.
-Most languages have their own naming convention, and most use lowerCamelCase and snakeCase.
-Keep variable names within a good length, which could be anywhere between 3 to 20 letters.
+* Unique and descriptive to be able to identifier the purpose of the variable easily.
+* Most languages have their own naming convention, and most use lowerCamelCase and snakeCase.
+* Keep variable names within a good length, which could be anywhere between 3 to 20 letters.
+* Try not use any abbreviations when naming things.
 
 > Note: Make sure you don't name variables after `keywords` from languages. Examples like: `for`, `in`, `if`, `let`
 

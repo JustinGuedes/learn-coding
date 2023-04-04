@@ -2,7 +2,13 @@
 
 Change the outcome of a piece of code.
 
-## `If` Statement
+Three types of control statements:
+
+* Sequence
+* Selection
+* Repitition
+
+## `If` Statement (Sequence)
 
 Executes a block of code if a statement evaluates to `true`. We call this the condition.
 
@@ -36,7 +42,7 @@ if <condition> {
 }
 ```
 
-## `Switch` Statement
+## `Switch` Statement (Selection)
 
 Compares the passed in value against multiple `case`'s and executes against the `case` that matches:
 
@@ -54,7 +60,7 @@ switch number {
 }
 ```
 
-In cases there a `case` is matched, you can use the default to execute as a fallback:
+In cases where a `case` is not matched, you can use the `default` to execute as a fallback:
 
 ```swift
 let number = -7
@@ -87,7 +93,7 @@ if number == 1 {
 }
 ```
 
-## Loops
+## Loops (Repitition)
 
 ### `For` Loop
 
@@ -123,5 +129,44 @@ while counter < 10 {
     // Execute block while condition is true
     counter = counter + 1
 }
+```
+
+## `Break`
+
+Breaks in loops exit the loop:
+
+```swift
+var counter = 1
+
+while counter < 10 {
+    if counter % 2 == 0 {
+        break
+    }
+
+    counter += 1
+}
+
+// counter = 2
+```
+
+> Some languages require you to insert a `break` after every `case` in a `switch` statement to be able to exit the switch statement without executing the subsequent cases below.
+
+## `Continue`
+
+Brings control to the beginning of the loop, but it does not reset the interator:
+
+```swift
+var counter = 0
+
+while counter < 10 {
+    counter += 1
+    if counter % 2 == 0 {
+        continue
+    }
+
+    print(counter)
+}
+
+// Output: 1, 3, 5, 7, 9
 ```
 
