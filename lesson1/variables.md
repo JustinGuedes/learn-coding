@@ -48,6 +48,8 @@ counter = counter + 1
 * Most languages have their own naming convention, and most use lowerCamelCase and snakeCase.
 * Keep variable names within a good length, which could be anywhere between 3 to 20 letters.
 * Try not use any abbreviations when naming things.
+* Names should not start with a symbol or number
+* Names should not contain symbols unless for special uses/cases. 
 
 > Note: Make sure you don't name variables after `keywords` from languages. Examples like: `for`, `in`, `if`, `let`
 
