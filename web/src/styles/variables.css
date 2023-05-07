@@ -1,0 +1,20 @@
+.heading1 {
+  font-size: xx-large;
+}
+.heading2 {
+  font-size: x-large;
+}
+.heading3 {
+  font-size: large;
+}
+.heading4 {
+  font-size: medium;
+  font-weight: bold;
+}
+
+pre code {
+  background-color: #680d0d;
+  border: 1px solid #999999;
+  display: block;
+  padding: 20px;
+}

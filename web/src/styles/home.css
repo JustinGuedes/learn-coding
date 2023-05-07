@@ -1,27 +1,27 @@
 .heading1 {
-    font-size: xx-large;
-    font-weight: bold;
+  font-size: xx-large;
+  font-weight: bold;
 }
 
 .heading2 {
-    font-size: x-large;
-    font-weight: bold;
+  font-size: x-large;
+  font-weight: bold;
 }
 
 .heading3 {
-    font-size: large;
-    font-weight: bold;
+  font-size: small;
+  font-weight: bold;
 }
 
 .list {
-    text-indent: 30px;
+  text-indent: 30px;
 }
 
 .list li {
-    padding-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 .ruling-lines {
-    opacity: 0.2;
-    margin-top: -10px;
+  opacity: 0.2;
+  margin-top: -10px;
 }
