@@ -25,6 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0;
 }

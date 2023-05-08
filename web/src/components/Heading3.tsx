@@ -12,7 +12,7 @@ export default function Heading3(props: Props): ReactElement {
   return (
     <div>
       <h1 className="heading3">{props.children}</h1>
-      <hr className="ruling-line" />
+      {/* <hr className="ruling-line" /> */}
     </div>
   );
 }

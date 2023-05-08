@@ -7,7 +7,7 @@ type Props = {
 export default function Heading2(props: Props): ReactElement {
   return (
     <div>
-      <h2>{props.children}</h2>
+      <h2 className="heading2">{props.children}</h2>
       <hr className="ruling-line" />
     </div>
   );
