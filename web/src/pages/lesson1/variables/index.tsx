@@ -1,11 +1,14 @@
+import { ReactElement } from "react";
+import React from "react";
 import Heading1 from "@component/components/Heading1";
 import Heading2 from "@component/components/Heading2";
 import Heading3 from "@component/components/Heading3";
 import Heading4 from "@component/components/Heading4";
 import Keyword from "@component/components/Keyword";
 import Syntax from "@component/components/SyntaxHighlight";
+import Link from "next/link";
+
 // import { link } from "fs";
-import { ReactElement } from "react";
 
 export default function Variables(): ReactElement {
   return (
@@ -184,9 +187,41 @@ export default function Variables(): ReactElement {
           <p>
             <a href="">Give feedback</a>
           </p>
+          <hr className="ruling-" />
         </div>
       </div>
-      <footer></footer>
+      <footer>
+        <div className="footerComponents">
+          <Link
+            href={
+              "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service"
+            }
+          >
+            Terms
+          </Link>
+          <Link
+            href={
+              "https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement"
+            }
+          >
+            Privacy
+          </Link>
+          <Link href={"https://github.com/security"}>Security</Link>
+          <Link href={"https://www.githubstatus.com/"}>Status</Link>
+          <Link href={"https://docs.github.com/"}>Docs</Link>
+          <Link href={"https://support.github.com/?tags=dotcom-footer"}>
+            Contact GitHub
+          </Link>
+          <Link href={"https://support.github.com/?tags=dotcom-footer"}>
+            Pricing
+          </Link>
+          <Link href={"https://docs.github.com/"}>API</Link>
+          <Link href={"https://services.github.com/"}>Training</Link>
+          <Link href={"https://github.blog/"}>Blog</Link>
+          <Link href={"https://github.com/about"}>About</Link>
+        </div>
+        <div className="cc">© 2023 GitHub, Inc.</div>
+      </footer>
     </div>
   );
 }
