@@ -4,9 +4,8 @@ import Heading3 from "@component/components/Heading3";
 import Heading4 from "@component/components/Heading4";
 import Keyword from "@component/components/Keyword";
 import Syntax from "@component/components/SyntaxHighlight";
-import { link } from "fs";
+// import { link } from "fs";
 import { ReactElement } from "react";
-import MenuIcon from "@mui/icons-material/Menu";
 
 export default function Variables(): ReactElement {
   return (
@@ -24,9 +23,6 @@ export default function Variables(): ReactElement {
           <section className="content">
             <div className="sticky">
               <div className="contentHeaderLeft">
-                <span id="menuIcon">
-                  <MenuIcon></MenuIcon>
-                </span>
                 <span>71 lines (47 sloc) | 1.46 KB</span>
               </div>
               <div className="contentHeaderRight">
