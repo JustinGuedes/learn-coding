@@ -27,33 +27,42 @@ export default function Home(): ReactElement {
       <h2>What is coding?</h2>
       <hr className="ruling-lines" />
       <br />
-      <p>Get Started</p>
-      <br />
-      <h3>Summary</h3>
-      <br />
-      <div>
-        <ul>
+      <div className="container">     
+        <div className="items">
+        <p>Get Started</p>
+        </div>
+        <div className="items">
+        <h3>Summary</h3>
+          <ul>
           <li>What is a program?</li>
           <li>Overview of a real world program</li>
           <li>What it takes to become a developer</li>
         </ul>
+        </div>
+      <br />
       </div>
       <br />
       <h2>Lesson 1 - Fundamentals</h2>
       <hr className="ruling-lines" />
       <br />
-      <p>Get Started</p>
-      <br />
-      <h3>Summary</h3>
-      <br />
-      <div>
+      <div className="container">
+        <div className="items">
+        <p>Get Started</p>
+        </div>
+        <div className="items">
+        <h3>Summary</h3>
         <ul>
           <li><Link href="/lesson1/types">Types</Link></li>
           <li><Link href="/lesson1/variables">Variables</Link></li>
           <li><Link href="/lesson1/scope">Scope</Link></li>
           <li>Logic</li>
         </ul>
+          </div>
+          </div>
+          <div>
+          </div>
+      <br />
       </div>
-    </div>
+    
   );
 }

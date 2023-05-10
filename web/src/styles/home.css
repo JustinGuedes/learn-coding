@@ -25,3 +25,18 @@
     opacity: 0.2;
     margin-top: -10px;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+/*flex basis set to 1 1 0 means the object will evenly space out the items where as none 1 0 puts the items right next to each other */
+.items {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    flex-grow: 1;
+    
+    
+
+}
