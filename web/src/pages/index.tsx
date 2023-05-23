@@ -13,7 +13,7 @@ export default function Home(): ReactElement {
         added constantly as I continue teaching some learners.
       </p>
       <br />
-      <Heading2>Quick Recap</Heading2>
+      <Heading2>Quick Recaps</Heading2>
       <br />
       <p>I assume you know the following:</p>
       <br />
