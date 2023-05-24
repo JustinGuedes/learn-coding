@@ -6,7 +6,7 @@ import { ReactElement } from "react";
 export default function Home(): ReactElement {
   return (
     <div>
-      <Heading1>Learning Code</Heading1>
+      <Heading1>Learning Code 2.0</Heading1>
       <p>
         Learn to code in Swift and any other language. This will constantly be
         updated and acts as a repository for my source material. Lessons will be
@@ -20,6 +20,7 @@ export default function Home(): ReactElement {
       <div>
         <ul>
           <li>Git</li>
+          <li>Example</li>
         </ul>
       </div>
 
