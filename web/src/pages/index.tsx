@@ -13,7 +13,7 @@ export default function Home(): ReactElement {
         added constantly as I continue teaching some learners.
       </p>
       <br />
-      <Heading2>Quick Recap</Heading2>
+      <Heading2>Really Quick Recap</Heading2>
       <br />
       <p>I assume you know the following:</p>
       <br />
@@ -48,9 +48,15 @@ export default function Home(): ReactElement {
       <br />
       <div>
         <ul>
-          <li><Link href="/lesson1/types">Types</Link></li>
-          <li><Link href="/lesson1/variables">Variables</Link></li>
-          <li><Link href="/lesson1/scope">Scope</Link></li>
+          <li>
+            <Link href="/lesson1/types">Types</Link>
+          </li>
+          <li>
+            <Link href="/lesson1/variables">Variables</Link>
+          </li>
+          <li>
+            <Link href="/lesson1/scope">Scope</Link>
+          </li>
           <li>Logic</li>
         </ul>
       </div>

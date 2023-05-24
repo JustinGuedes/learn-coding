@@ -7,6 +7,12 @@ import Heading4 from "@component/components/Heading4";
 import Keyword from "@component/components/Keyword";
 import Syntax from "@component/components/SyntaxHighlight";
 import Link from "next/link";
+import SyntaxHighlighter from "react-syntax-highlighter";
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
+
+// to install a library, we can install it in the web folder.
+//proceed to import it in the page you want to use it in as well as the _app
+//
 
 // import { link } from "fs";
 
@@ -69,6 +75,10 @@ export default function Variables(): ReactElement {
                 </p>
               </pre>
               <Heading4>Typescript</Heading4>
+
+              <SyntaxHighlighter language="javascript" style={darcla}>
+                const pi
+              </SyntaxHighlighter>
               <pre>
                 <Syntax color="red">const</Syntax> pi{" "}
                 <Syntax color="blue">=</Syntax>{" "}
