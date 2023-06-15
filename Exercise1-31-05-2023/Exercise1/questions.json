@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How many types of Variables are there?",
+    "answer": "2"
+  },
+  {
+    "question": "How many types of Types are there?",
+    "answer": "infinite"
+  },
+  {
+    "question": "How many categories of Types are there?",
+    "answer": "2"
+  },
+  {
+    "question": "What Scope will be available for the entire programs lifetime?",
+    "answer": "glObAL"
+  },
+  {
+    "question": "What operator is used to require two Booleans to be true in order to result in true? (use actual operator)",
+    "answer": "&&"
+  },
+  {
+    "question": "What operator is used to show inequality between to values? (use actual operator)",
+    "answer": "!="
+  },
+  {
+    "question": "How many control statements are there?",
+    "answer": "3"
+  },
+  {
+    "question": "What control statement would you use if you know how many times to repeat a piece of code?",
+    "answer": "FOR LOOP"
+  },
+  {
+    "question": "What control statement would you use for selection?",
+    "answer": "SwiTCH"
+  },
+  {
+    "question": "What is the input of a function also known as?",
+    "answer": "PARAMETERS"
+  }
+]
